@@ -125,6 +125,17 @@ From the Gender Distribution by Department chart:
 
 ### VISUALIZATION
 
+![Palmora final Table](https://github.com/user-attachments/assets/02ea7c82-c7ed-4713-8f9b-55470cf5c48e)
+
+
+![palmora model view](https://github.com/user-attachments/assets/547439cd-ab4d-44b3-96c5-4cd1bd140e2d)
+
+
+![palmora Dashboard 1](https://github.com/user-attachments/assets/09bcbd3d-8640-4d1b-811b-cead116218aa)
+
+
+![Palmora Dashboard 2](https://github.com/user-attachments/assets/f3d9ab60-547d-4a29-95b6-d3af47f35e5b)
+
 
 ### Summary of Key Gender Insights for Management:
 1. Workforce Balance	Near equal male and female counts company-wide.
@@ -134,6 +145,16 @@ From the Gender Distribution by Department chart:
 5. Salary Band Distribution	Fewer women in the ≥$90k compliance band.
 6. Departmental Salary Gaps	Business Dev and Legal have biggest pay gaps favoring men.
 7. Exceptions	Marketing & Training show women earning more.
+
+### RECOMMENDATIONS
+- Conduct Salary Audits: Address pay disparities, especially in departments like Business Development and Legal.
+- Promote Female Representation in High-Paying Roles: Encourage women into technical and leadership roles through targeted recruitment and mentorship.
+- Standardize Compensation Across Regions: Ensure fair pay for women across Abuja, Kaduna, and Lagos.
+- Support Career Growth for Women: Introduce leadership programs and promotion pathways to help more women reach top salary bands.
+- Train Managers on Gender Equity: Implement bias training and hold leaders accountable with gender equity scorecards.
+- Establish an Equity Monitoring Team: Create a task force to track progress and drive continuous improvement.
+
+
 
 
 
