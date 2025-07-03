@@ -48,13 +48,92 @@ The Exploratory Data Analysis phase focused on uncovering key insights from the 
     - Analyzed employee salary distribution in $10,000 bands (e.g., $10,000–$20,000, $20,000–$30,000, etc.)
     - Visualized salary bands across different regions to provide a comprehensive view of pay distribution.
  
-### Insights & Key Findings
+### INSIGHTS AND KEY FINDINGS
 
-Highlight the most important insights gained from your visuals:
-Gender imbalance
-Salary gap by region/department
-Bonus distribution trends
-Compliance with salary regulations
+#### 1. Overall Gender Distribution:
+    - Total Employees: 946 (100%)
+    - Males: 465 (49.15%)
+    - Females: 441 (46.6%) 
+
+**Insight**: The gender split is nearly equal, which suggests good company-wide representation.
+
+#### 2. Overall Average Salary:
+    - Male: 77,000
+    - Female: 74,595
+
+Pay Gap Metric: 96.81%
+This means Female employee earns only 96.81 cents for every $1 men earn. A 3.2% gender pay gap which means female employee earn 3.2% less than male employees on average 
+
+**Insight**: This is close to equal pay but not quite there yet, this gap grows larger at department and regional levels.
+
+#### 3. Pay Gap by Department
+
+From the table of Average Salary by Gender and Department:
+
+|Department|Female Salary|Male Salary|
+|----------|-------------|-----------|
+|Sales|72306.06|74134.45|
+|Business Development|76940.51|84488.89|
+|Engineering|77944.18|79028.61|
+|Legal|70183.26|74148.18|
+|Marketing|82219.77|76549.30|
+|Training|80427.31|76888.16|
+
+**Insight**:
+- Business Development, Legal, and Engineering show the most significant gaps against women.
+- Marketing and Training are the only departments where females earn more.
+
+#### 4. Pay Gap by Region
+
+|Region|FemaleSalary|Male Salary|
+|------|------------|-----------|
+|Abuja|72970.59|75530.26|
+|Kaduna|74571.93|77083.71|
+|Lagos|76624.75|78772.97|
+
+**Insight**:
+- In every region, male employees earn more than female employees.
+- Gaps are consistent and suggest systemic patterns.
+
+#### 5. Salary Band Compliance
+    - Employees earning < $90,000: 618
+    - Employees earning ≥ $90,000: 328
+
+From gender bar visuals:
+- More men than women are in the above $90k bands.
+- More women are clustered in the $50k–$80k bands.
+
+**Insight**:
+- This shows a glass ceiling effect: fewer women in top-earning brackets.
+- Might indicate fewer leadership roles or promotions among female employees.
+
+#### 6. Departmental Representation
+
+From the Gender Distribution by Department chart:
+- HR, Services, Support, Legal: More female employees
+- Engineering, Product Management, Sales, R&D: More male employees
+
+**Insight**:
+- Women are more represented in support and admin roles.
+- Underrepresentation in technical and revenue-driving roles (often higher paying).
+
+#### 7. Performance Ratings
+- Males received slightly more "Average" and "Good" ratings.
+- Both genders are similarly represented across rating categories.
+
+**Insight**: There is no strong gender bias in ratings, but this should be analyzed deeper if ratings affect bonuses or promotions.
+
+### VISUALIZATION
+
+
+### Summary of Key Gender Insights for Management:
+1. Workforce Balance	Near equal male and female counts company-wide.
+2. Gender Pay Gap	Exists company-wide (3.2%) and larger in key departments.
+3. Departmental Disparity	Women underrepresented in technical and leadership-heavy departments.
+4. Regional Pay Gap	Men earn more in all regions (Abuja, Kaduna, Lagos).
+5. Salary Band Distribution	Fewer women in the ≥$90k compliance band.
+6. Departmental Salary Gaps	Business Dev and Legal have biggest pay gaps favoring men.
+7. Exceptions	Marketing & Training show women earning more.
 
 
 
