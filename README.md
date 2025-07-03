@@ -1,4 +1,18 @@
-# PALMORA GROUP HR ANALYSIS 
+# PALMORA GROUP HR ANALYSIS
+
+## TABLE OF CONTENTS
+
+- [PROJECT OVERVIEW](#project-overview)
+- [DATA SOURCE](#data-source)
+- [TOOL](#tool)
+- [DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation)
+- [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
+- [INSIGHTS AND KEY FINDINGS](#insights-and-key-findings)
+- [SUMMARY OF KEY GENDER INSIGHT FOR MANAGEMENT](#summary-of-key-gender-insight-for-management)
+- [VISUALIZATION](#visualization)
+- [RECOMMENDATIONS](#recommendations)
+- [CONCLUSION](conclusion)
+- [DAX QUERIES](dax-queries)
 
 ### PROJECT OVERVIEW
 
@@ -28,7 +42,7 @@ In the initial phase of the project, the following steps were carried out:
     2. Adding calculated columns for bonus and total compensation
     3. Changing data types to ensure proper analysis in Power BI
 
-### EXPLORATORY DATA ANALYSIS (EDA)
+### EXPLORATORY DATA ANALYSIS
 
 The Exploratory Data Analysis phase focused on uncovering key insights from the HR dataset to better understand gender dynamics, salary structure, and regulatory compliance across Palmoria Group’s three regions. The following focus areas were explored:
 - Bonus Calculation
@@ -137,14 +151,14 @@ From the Gender Distribution by Department chart:
 ![Palmora Dashboard 2](https://github.com/user-attachments/assets/f3d9ab60-547d-4a29-95b6-d3af47f35e5b)
 
 
-### Summary of Key Gender Insights for Management:
+### SUMMARY OF KEY GENDER INSIGHT FOR MANAGEMENT
 1. Workforce Balance	Near equal male and female counts company-wide.
 2. Gender Pay Gap	Exists company-wide (3.2%) and larger in key departments.
 3. Departmental Disparity	Women underrepresented in technical and leadership-heavy departments.
 4. Regional Pay Gap	Men earn more in all regions (Abuja, Kaduna, Lagos).
-5. Salary Band Distribution	Fewer women in the ≥$90k compliance band.
-6. Departmental Salary Gaps	Business Dev and Legal have biggest pay gaps favoring men.
-7. Exceptions	Marketing & Training show women earning more.
+5. Salary Band Distribution	Fewer women in the Above or 90,000 compliance band.
+6. Salary Gaps in departments like Business Development and Legal have biggest pay gaps favoring men.
+7. Exception department like Marketing & Training show women earning more.
 
 ### RECOMMENDATIONS
 - Conduct Salary Audits: Address pay disparities, especially in departments like Business Development and Legal.
@@ -154,7 +168,13 @@ From the Gender Distribution by Department chart:
 - Train Managers on Gender Equity: Implement bias training and hold leaders accountable with gender equity scorecards.
 - Establish an Equity Monitoring Team: Create a task force to track progress and drive continuous improvement.
 
+### CONCLUSION
+Palmora demonstrates commendable gender balance in overall workforce numbers, but there are still notable disparities which remains in compensation, departmental roles, and salary progression. To strengthen its commitment to equity, the company should prioritize closing gender pay gaps, increasing female representation in high impact roles, and promoting a culture of inclusion. These actions will not only ensure compliance but also reinforce Palmora’s position as a progressive and equitable employer.
 
+### DAX QUERIES
+```dax
+Gender Pay Gap = DIVIDE(CALCULATE(AVERAGE('palmoria HR DATA'[Salary with Bonus]), 'palmoria HR DATA'[Gender] = "Female"), CALCULATE(AVERAGE('palmoria HR DATA'[Salary with Bonus]), 'palmoria HR DATA'[Gender] = "Male") ) * 100
+```
 
 
 
